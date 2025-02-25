@@ -1,0 +1,23 @@
+Configurazione BotFather
+=======================
+
+Nome: DigiShop
+Descrizione Breve: Il tuo assistente shopping digitale per trovare le migliori offerte su più piattaforme.
+
+Comandi:
+/start - Inizia lo shopping
+/search - Cerca prodotti
+/categories - Sfoglia categorie
+/cart - Visualizza carrello
+/help - Mostra comandi disponibili
+
+Info: Un assistente shopping intelligente che ti aiuta a trovare e confrontare prodotti da vari negozi online.
+
+Informativa sulla Privacy:
+Questo bot raccoglie ed elabora solo i dati necessari per le funzionalità di shopping. Non condividiamo le tue informazioni personali con terze parti. I tuoi dati di shopping sono archiviati in modo sicuro e utilizzati solo per elaborare le tue richieste.
+
+Nota: Per impostare in BotFather, usa questi comandi:
+1. /setcommands
+2. /setdescription
+3. /setabout
+4. /setprivacypolicy

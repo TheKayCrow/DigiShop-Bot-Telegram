@@ -1,0 +1,21 @@
+python-telegram-bot==20.8
+redis==5.0.1
+celery==5.3.6
+SQLAlchemy==2.0.25
+pydantic==2.6.1
+pydantic-settings==2.1.0
+python-dotenv==1.0.0
+pytest==8.0.1
+pytest-asyncio==0.23.5
+logging==0.4.9.6
+pycountry==23.12.11
+python-i18n==0.3.9
+coinbase-commerce==1.0.1
+alembic==1.13.1
+aiohttp==3.9.1
+prometheus-client==0.19.0
+ujson==5.9.0
+
+app.add_handler(CommandHandler("search", SearchHandler.search_products))
+app.add_handler(CommandHandler("cart", CartHandler.view_cart))
+app.add_handler(CommandHandler("wishlist", WishlistHandler.view_wishlist))
